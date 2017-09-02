@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 80px;
+    color: #665d38;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    opacity: .9;
+}
+
+ul {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 50px;
+    opacity: 1;
+}
+
+p {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 45px;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: firstfont;
+    src: url('../assets/westerndead.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url(../images/west.jpg);
+    font-family: sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    opacity: 1;
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: white;
+
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.win {
+    color: green;
+    opacity: 1;
+}
